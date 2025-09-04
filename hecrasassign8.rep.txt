@@ -1,0 +1,1141 @@
+
+                        HEC-RAS HEC-RAS 6.6 September 2024
+                          U.S. Army Corps of Engineers  
+                         Hydrologic Engineering Center  
+                               609 Second Street        
+                               Davis, California        
+
+
+            X     X  XXXXXX    XXXX        XXXX       XX      XXXX
+            X     X  X        X    X       X   X     X  X    X
+            X     X  X        X            X   X    X    X   X
+            XXXXXXX  XXXX     X       XXX  XXXX     XXXXXX    XXXX
+            X     X  X        X            X  X     X    X        X
+            X     X  X        X    X       X   X    X    X        X
+            X     X  XXXXXX    XXXX        X    X   X    X   XXXXX
+
+
+                                                                                
+
+PROJECT DATA
+Project Title: hecras assign8
+Project File : hecrasassign8.prj
+Run Date and Time: 10-03-2025 16:56:32
+
+Project in SI units
+
+                                                                                
+
+PLAN DATA
+
+Plan Title: Plan 01
+Plan File : C:\Users\jhars\OneDrive\Documents\hecrasassign8.p01
+
+           Geometry Title: geometric data assign8
+           Geometry File : C:\Users\jhars\OneDrive\Documents\hecrasassign8.g01
+
+           Flow Title    : flow data assign8
+           Flow File     : C:\Users\jhars\OneDrive\Documents\hecrasassign8.f01
+
+Plan Summary Information:
+Number of:  Cross Sections =   25    Multiple Openings  =    0
+            Culverts       =    0    Inline Structures  =    0
+            Bridges        =    0    Lateral Structures =    0
+
+Computational Information
+    Water surface calculation tolerance  =  0.003 
+    Critical depth calculation tolerance =  0.003 
+    Maximum number of iterations         =  20 
+    Maximum difference tolerance         =  0.1 
+    Flow tolerance factor                =  0.001 
+
+Computation Options
+    Critical depth computed only where necessary
+    Conveyance Calculation Method: At breaks in n values only
+    Friction Slope Method:         Average Conveyance
+    Computational Flow Regime:     Subcritical Flow
+
+
+                                                                                
+
+FLOW DATA
+
+Flow Title: flow data assign8
+Flow File : C:\Users\jhars\OneDrive\Documents\hecrasassign8.f01
+
+Flow Data (m3/s)
+                                                                                             
+  River           Reach           RS                   PF 1            PF 2            PF 3  
+  Ganga           600             4                      10              10              10  
+                                                                                             
+
+Boundary Conditions
+                                                                                                        
+  River           Reach           Profile                       Upstream                 Downstream     
+                                                                                                        
+  Ganga           600             PF 1                      Normal S = 0.0024              Critical     
+  Ganga           600             PF 2                      Normal S = 0.0012              Critical     
+  Ganga           600             PF 3                      Normal S = 0.0008              Critical     
+                                                                                                        
+
+                                                                                
+
+GEOMETRY DATA
+
+Geometry Title: geometric data assign8
+Geometry File : C:\Users\jhars\OneDrive\Documents\hecrasassign8.g01
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 4       
+
+INPUT
+Description: Sec4
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+    -8.5    4.94    -2.5     .94     2.5     .94     8.5    4.94
+
+Manning's n Values        num=       3
+     Sta   n Val     Sta   n Val     Sta   n Val
+    -8.5    .013    -8.5    .013     8.5    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+          -8.5     8.5               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             2.26    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.07    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             2.20    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       8.65              
+  E.G. Slope (m/m)      0.000257    Area (m2)                            8.65              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             8.77    Top Width (m)                        8.77              
+  Vel Total (m/s)           1.16    Avg. Vel. (m/s)                      1.16              
+  Max Chl Dpth (m)          1.26    Hydr. Depth (m)                      0.99              
+  Conv. Total (m3/s)       624.2    Conv. (m3/s)                        624.2              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      9.53              
+  Min Ch El (m)             0.94    Shear (N/m2)                         2.29              
+  Alpha                     1.00    Stream Power (N/m s)                 2.64              
+  Frctn Loss (m)            0.01    Cum Volume (1000 m3)                 2.90              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     2.88              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 3.8750* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+  -7.688    4.92  -2.438     .92   2.438     .92   7.688    4.92
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+  -7.688    .013   7.688    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+        -7.688   7.688               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             2.26    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.07    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             2.18    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       8.25              
+  E.G. Slope (m/m)      0.000281    Area (m2)                            8.25              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             8.19    Top Width (m)                        8.19              
+  Vel Total (m/s)           1.21    Avg. Vel. (m/s)                      1.21              
+  Max Chl Dpth (m)          1.26    Hydr. Depth (m)                      1.01              
+  Conv. Total (m3/s)       596.7    Conv. (m3/s)                        596.7              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      9.04              
+  Min Ch El (m)             0.92    Shear (N/m2)                         2.51              
+  Alpha                     1.00    Stream Power (N/m s)                 3.05              
+  Frctn Loss (m)            0.01    Cum Volume (1000 m3)                 2.68              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     2.66              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 3.7500* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+  -6.875     4.9  -2.375      .9   2.375      .9   6.875     4.9
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+  -6.875    .013   6.875    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+        -6.875   6.875               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             2.25    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.08    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             2.17    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       7.81              
+  E.G. Slope (m/m)      0.000313    Area (m2)                            7.81              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             7.60    Top Width (m)                        7.60              
+  Vel Total (m/s)           1.28    Avg. Vel. (m/s)                      1.28              
+  Max Chl Dpth (m)          1.26    Hydr. Depth (m)                      1.03              
+  Conv. Total (m3/s)       565.1    Conv. (m3/s)                        565.1              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      8.56              
+  Min Ch El (m)             0.90    Shear (N/m2)                         2.80              
+  Alpha                     1.00    Stream Power (N/m s)                 3.59              
+  Frctn Loss (m)            0.01    Cum Volume (1000 m3)                 2.48              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     2.47              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 3.6250* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+  -6.062    4.88  -2.312     .88   2.312     .88   6.062    4.88
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+  -6.062    .013   6.062    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+        -6.062   6.062               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             2.24    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.09    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             2.14    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       7.35              
+  E.G. Slope (m/m)      0.000356    Area (m2)                            7.35              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             7.00    Top Width (m)                        7.00              
+  Vel Total (m/s)           1.36    Avg. Vel. (m/s)                      1.36              
+  Max Chl Dpth (m)          1.26    Hydr. Depth (m)                      1.05              
+  Conv. Total (m3/s)       530.1    Conv. (m3/s)                        530.1              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      8.09              
+  Min Ch El (m)             0.88    Shear (N/m2)                         3.17              
+  Alpha                     1.00    Stream Power (N/m s)                 4.31              
+  Frctn Loss (m)            0.01    Cum Volume (1000 m3)                 2.29              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     2.29              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 3.5000* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+   -5.25    4.86   -2.25     .86    2.25     .86    5.25    4.86
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+   -5.25    .013    5.25    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+         -5.25    5.25               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             2.23    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.11    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             2.12    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       6.86              
+  E.G. Slope (m/m)      0.000415    Area (m2)                            6.86              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             6.39    Top Width (m)                        6.39              
+  Vel Total (m/s)           1.46    Avg. Vel. (m/s)                      1.46              
+  Max Chl Dpth (m)          1.26    Hydr. Depth (m)                      1.07              
+  Conv. Total (m3/s)       490.9    Conv. (m3/s)                        490.9              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      7.65              
+  Min Ch El (m)             0.86    Shear (N/m2)                         3.65              
+  Alpha                     1.00    Stream Power (N/m s)                 5.32              
+  Frctn Loss (m)            0.01    Cum Volume (1000 m3)                 2.12              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     2.12              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 3.3750* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+  -4.438    4.84  -2.188     .84   2.188     .84   4.438    4.84
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+  -4.438    .013   4.438    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+        -4.438   4.438               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             2.22    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.13    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             2.09    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       6.34              
+  E.G. Slope (m/m)      0.000502    Area (m2)                            6.34              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             5.78    Top Width (m)                        5.78              
+  Vel Total (m/s)           1.58    Avg. Vel. (m/s)                      1.58              
+  Max Chl Dpth (m)          1.25    Hydr. Depth (m)                      1.10              
+  Conv. Total (m3/s)       446.3    Conv. (m3/s)                        446.3              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      7.24              
+  Min Ch El (m)             0.84    Shear (N/m2)                         4.31              
+  Alpha                     1.00    Stream Power (N/m s)                 6.80              
+  Frctn Loss (m)            0.01    Cum Volume (1000 m3)                 1.95              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     1.97              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 3.2500* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+  -3.625    4.82  -2.125     .82   2.125     .82   3.625    4.82
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+  -3.625    .013   3.625    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+        -3.625   3.625               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             2.20    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.15    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             2.05    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       5.77              
+  E.G. Slope (m/m)      0.000639    Area (m2)                            5.77              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             5.17    Top Width (m)                        5.17              
+  Vel Total (m/s)           1.73    Avg. Vel. (m/s)                      1.73              
+  Max Chl Dpth (m)          1.23    Hydr. Depth (m)                      1.12              
+  Conv. Total (m3/s)       395.5    Conv. (m3/s)                        395.5              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      6.87              
+  Min Ch El (m)             0.82    Shear (N/m2)                         5.27              
+  Alpha                     1.00    Stream Power (N/m s)                 9.13              
+  Frctn Loss (m)            0.02    Cum Volume (1000 m3)                 1.80              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     1.83              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 3.1250* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+  -2.812     4.8  -2.062      .8   2.062      .8   2.812     4.8
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+  -2.812    .013   2.812    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+        -2.812   2.812               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             2.18    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.19    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.98    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       5.14              
+  E.G. Slope (m/m)      0.000880    Area (m2)                            5.14              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.57    Top Width (m)                        4.57              
+  Vel Total (m/s)           1.95    Avg. Vel. (m/s)                      1.95              
+  Max Chl Dpth (m)          1.18    Hydr. Depth (m)                      1.13              
+  Conv. Total (m3/s)       337.1    Conv. (m3/s)                        337.1              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      6.53              
+  Min Ch El (m)             0.80    Shear (N/m2)                         6.79              
+  Alpha                     1.00    Stream Power (N/m s)                13.21              
+  Frctn Loss (m)            0.03    Cum Volume (1000 m3)                 1.66              
+  C & E Loss (m)            0.01    Cum SA (1000 m2)                     1.71              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 3       
+
+INPUT
+Description: Sec3
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.78      -2     .78       2     .78       2    4.78
+
+Manning's n Values        num=       3
+     Sta   n Val     Sta   n Val     Sta   n Val
+      -2    .013      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             2.14    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.27    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.88    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       4.38              
+  E.G. Slope (m/m)      0.001397    Area (m2)                            4.38              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.28    Avg. Vel. (m/s)                      2.28              
+  Max Chl Dpth (m)          1.10    Hydr. Depth (m)                      1.10              
+  Conv. Total (m3/s)       267.6    Conv. (m3/s)                        267.6              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      6.19              
+  Min Ch El (m)             0.78    Shear (N/m2)                         9.69              
+  Alpha                     1.00    Stream Power (N/m s)                22.13              
+  Frctn Loss (m)            0.04    Cum Volume (1000 m3)                 1.54              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     1.60              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 2.8333* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.75      -2     .75       2     .75       2    4.75
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             2.11    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.27    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.84    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       4.34              
+  E.G. Slope (m/m)      0.001430    Area (m2)                            4.34              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.30    Avg. Vel. (m/s)                      2.30              
+  Max Chl Dpth (m)          1.09    Hydr. Depth (m)                      1.09              
+  Conv. Total (m3/s)       264.4    Conv. (m3/s)                        264.4              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      6.17              
+  Min Ch El (m)             0.75    Shear (N/m2)                         9.87              
+  Alpha                     1.00    Stream Power (N/m s)                22.73              
+  Frctn Loss (m)            0.04    Cum Volume (1000 m3)                 1.44              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     1.50              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 2.6667* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.72      -2     .72       2     .72       2    4.72
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             2.07    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.28    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.80    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       4.30              
+  E.G. Slope (m/m)      0.001470    Area (m2)                            4.30              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.32    Avg. Vel. (m/s)                      2.32              
+  Max Chl Dpth (m)          1.08    Hydr. Depth (m)                      1.08              
+  Conv. Total (m3/s)       260.8    Conv. (m3/s)                        260.8              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      6.15              
+  Min Ch El (m)             0.72    Shear (N/m2)                        10.08              
+  Alpha                     1.00    Stream Power (N/m s)                23.43              
+  Frctn Loss (m)            0.04    Cum Volume (1000 m3)                 1.33              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     1.40              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 2.5000* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.69      -2     .69       2     .69       2    4.69
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             2.03    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.28    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.75    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       4.24              
+  E.G. Slope (m/m)      0.001529    Area (m2)                            4.24              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.36    Avg. Vel. (m/s)                      2.36              
+  Max Chl Dpth (m)          1.06    Hydr. Depth (m)                      1.06              
+  Conv. Total (m3/s)       255.7    Conv. (m3/s)                        255.7              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      6.12              
+  Min Ch El (m)             0.69    Shear (N/m2)                        10.40              
+  Alpha                     1.00    Stream Power (N/m s)                24.50              
+  Frctn Loss (m)            0.04    Cum Volume (1000 m3)                 1.22              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     1.30              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 2.3333* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.66      -2     .66       2     .66       2    4.66
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             1.99    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.29    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.70    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       4.16              
+  E.G. Slope (m/m)      0.001615    Area (m2)                            4.16              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.40    Avg. Vel. (m/s)                      2.40              
+  Max Chl Dpth (m)          1.04    Hydr. Depth (m)                      1.04              
+  Conv. Total (m3/s)       248.8    Conv. (m3/s)                        248.8              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      6.08              
+  Min Ch El (m)             0.66    Shear (N/m2)                        10.84              
+  Alpha                     1.00    Stream Power (N/m s)                26.04              
+  Frctn Loss (m)            0.04    Cum Volume (1000 m3)                 1.12              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     1.20              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 2.1667* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.63      -2     .63       2     .63       2    4.63
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             1.95    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.31    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.64    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)                     Flow Area (m2)                       4.04              
+  E.G. Slope (m/m)      0.001760    Area (m2)                            4.04              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.47    Avg. Vel. (m/s)                      2.47              
+  Max Chl Dpth (m)          1.01    Hydr. Depth (m)                      1.01              
+  Conv. Total (m3/s)       238.4    Conv. (m3/s)                        238.4              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      6.02              
+  Min Ch El (m)             0.63    Shear (N/m2)                        11.59              
+  Alpha                     1.00    Stream Power (N/m s)                28.66              
+  Frctn Loss (m)            0.05    Cum Volume (1000 m3)                 1.01              
+  C & E Loss (m)            0.01    Cum SA (1000 m2)                     1.10              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 2       
+
+INPUT
+Description: Sec2
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2     4.6      -2      .6       2      .6       2     4.6
+
+Manning's n Values        num=       3
+     Sta   n Val     Sta   n Val     Sta   n Val
+      -2    .013      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             1.90    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.38    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.51    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)             1.46    Flow Area (m2)                       3.65              
+  E.G. Slope (m/m)      0.002374    Area (m2)                            3.65              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.74    Avg. Vel. (m/s)                      2.74              
+  Max Chl Dpth (m)          0.91    Hydr. Depth (m)                      0.91              
+  Conv. Total (m3/s)       205.3    Conv. (m3/s)                        205.3              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      5.82              
+  Min Ch El (m)             0.60    Shear (N/m2)                        14.57              
+  Alpha                     1.00    Stream Power (N/m s)                39.97              
+  Frctn Loss (m)            0.06    Cum Volume (1000 m3)                 0.92              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     1.00              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 1.9000* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.54      -2     .54       2     .54       2    4.54
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             1.84    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.38    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.45    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)             1.40    Flow Area (m2)                       3.65              
+  E.G. Slope (m/m)      0.002367    Area (m2)                            3.65              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.74    Avg. Vel. (m/s)                      2.74              
+  Max Chl Dpth (m)          0.91    Hydr. Depth (m)                      0.91              
+  Conv. Total (m3/s)       205.5    Conv. (m3/s)                        205.5              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      5.82              
+  Min Ch El (m)             0.54    Shear (N/m2)                        14.54              
+  Alpha                     1.00    Stream Power (N/m s)                39.85              
+  Frctn Loss (m)            0.06    Cum Volume (1000 m3)                 0.83              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     0.90              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 1.8000* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.48      -2     .48       2     .48       2    4.48
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             1.78    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.38    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.39    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)             1.34    Flow Area (m2)                       3.65              
+  E.G. Slope (m/m)      0.002359    Area (m2)                            3.65              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.74    Avg. Vel. (m/s)                      2.74              
+  Max Chl Dpth (m)          0.91    Hydr. Depth (m)                      0.91              
+  Conv. Total (m3/s)       205.9    Conv. (m3/s)                        205.9              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      5.83              
+  Min Ch El (m)             0.48    Shear (N/m2)                        14.50              
+  Alpha                     1.00    Stream Power (N/m s)                39.70              
+  Frctn Loss (m)            0.06    Cum Volume (1000 m3)                 0.73              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     0.80              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 1.7000* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.42      -2     .42       2     .42       2    4.42
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             1.72    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.38    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.33    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)             1.28    Flow Area (m2)                       3.66              
+  E.G. Slope (m/m)      0.002349    Area (m2)                            3.66              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.73    Avg. Vel. (m/s)                      2.73              
+  Max Chl Dpth (m)          0.91    Hydr. Depth (m)                      0.91              
+  Conv. Total (m3/s)       206.3    Conv. (m3/s)                        206.3              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      5.83              
+  Min Ch El (m)             0.42    Shear (N/m2)                        14.46              
+  Alpha                     1.00    Stream Power (N/m s)                39.51              
+  Frctn Loss (m)            0.06    Cum Volume (1000 m3)                 0.64              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     0.70              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 1.6000* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.36      -2     .36       2     .36       2    4.36
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             1.66    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.38    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.28    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)             1.22    Flow Area (m2)                       3.67              
+  E.G. Slope (m/m)      0.002337    Area (m2)                            3.67              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.73    Avg. Vel. (m/s)                      2.73              
+  Max Chl Dpth (m)          0.92    Hydr. Depth (m)                      0.92              
+  Conv. Total (m3/s)       206.9    Conv. (m3/s)                        206.9              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      5.83              
+  Min Ch El (m)             0.36    Shear (N/m2)                        14.40              
+  Alpha                     1.00    Stream Power (N/m s)                39.29              
+  Frctn Loss (m)            0.06    Cum Volume (1000 m3)                 0.55              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     0.60              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 1.5000* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2     4.3      -2      .3       2      .3       2     4.3
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             1.60    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.38    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.22    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)             1.16    Flow Area (m2)                       3.67              
+  E.G. Slope (m/m)      0.002322    Area (m2)                            3.67              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.72    Avg. Vel. (m/s)                      2.72              
+  Max Chl Dpth (m)          0.92    Hydr. Depth (m)                      0.92              
+  Conv. Total (m3/s)       207.5    Conv. (m3/s)                        207.5              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      5.84              
+  Min Ch El (m)             0.30    Shear (N/m2)                        14.33              
+  Alpha                     1.00    Stream Power (N/m s)                39.01              
+  Frctn Loss (m)            0.06    Cum Volume (1000 m3)                 0.46              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     0.50              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 1.4000* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.24      -2     .24       2     .24       2    4.24
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             1.54    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.38    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.16    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)             1.10    Flow Area (m2)                       3.68              
+  E.G. Slope (m/m)      0.002304    Area (m2)                            3.68              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.71    Avg. Vel. (m/s)                      2.71              
+  Max Chl Dpth (m)          0.92    Hydr. Depth (m)                      0.92              
+  Conv. Total (m3/s)       208.3    Conv. (m3/s)                        208.3              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      5.84              
+  Min Ch El (m)             0.24    Shear (N/m2)                        14.25              
+  Alpha                     1.00    Stream Power (N/m s)                38.68              
+  Frctn Loss (m)            0.06    Cum Volume (1000 m3)                 0.37              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     0.40              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 1.3000* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.18      -2     .18       2     .18       2    4.18
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             1.48    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.37    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.10    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)             1.04    Flow Area (m2)                       3.69              
+  E.G. Slope (m/m)      0.002285    Area (m2)                            3.69              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.71    Avg. Vel. (m/s)                      2.71              
+  Max Chl Dpth (m)          0.92    Hydr. Depth (m)                      0.92              
+  Conv. Total (m3/s)       209.2    Conv. (m3/s)                        209.2              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      5.85              
+  Min Ch El (m)             0.18    Shear (N/m2)                        14.16              
+  Alpha                     1.00    Stream Power (N/m s)                38.32              
+  Frctn Loss (m)            0.06    Cum Volume (1000 m3)                 0.28              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     0.30              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 1.2000* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.12      -2     .12       2     .12       2    4.12
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             1.42    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.37    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.05    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)             0.98    Flow Area (m2)                       3.71              
+  E.G. Slope (m/m)      0.002249    Area (m2)                            3.71              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.69    Avg. Vel. (m/s)                      2.69              
+  Max Chl Dpth (m)          0.93    Hydr. Depth (m)                      0.93              
+  Conv. Total (m3/s)       210.9    Conv. (m3/s)                        210.9              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      5.86              
+  Min Ch El (m)             0.12    Shear (N/m2)                        13.98              
+  Alpha                     1.00    Stream Power (N/m s)                37.65              
+  Frctn Loss (m)            0.06    Cum Volume (1000 m3)                 0.18              
+  C & E Loss (m)            0.00    Cum SA (1000 m2)                     0.20              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 1.1000* 
+
+INPUT
+Description: 
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2    4.06      -2     .06       2     .06       2    4.06
+
+Manning's n Values        num=       2
+     Sta   n Val     Sta   n Val
+      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2               25      25      25             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             1.36    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.36    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             1.00    Reach Len. (m)           25.00      25.00      25.00   
+  Crit W.S. (m)             0.92    Flow Area (m2)                       3.74              
+  E.G. Slope (m/m)      0.002199    Area (m2)                            3.74              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.67    Avg. Vel. (m/s)                      2.67              
+  Max Chl Dpth (m)          0.94    Hydr. Depth (m)                      0.94              
+  Conv. Total (m3/s)       213.3    Conv. (m3/s)                        213.3              
+  Length Wtd. (m)          25.00    Wetted Per. (m)                      5.87              
+  Min Ch El (m)             0.06    Shear (N/m2)                        13.74              
+  Alpha                     1.00    Stream Power (N/m s)                36.72              
+  Frctn Loss (m)            0.06    Cum Volume (1000 m3)                 0.09              
+  C & E Loss (m)            0.01    Cum SA (1000 m2)                     0.10              
+                                                                                           
+
+CROSS SECTION          
+
+
+RIVER: Ganga           
+REACH: 600                RS: 1       
+
+INPUT
+Description: Sec1
+Station Elevation Data    num=       4
+     Sta    Elev     Sta    Elev     Sta    Elev     Sta    Elev
+      -2       4      -2       0       2       0       2       4
+
+Manning's n Values        num=       3
+     Sta   n Val     Sta   n Val     Sta   n Val
+      -2    .013      -2    .013       2    .013
+
+Bank Sta: Left   Right    Lengths: Left Channel   Right     Coeff Contr.   Expan.
+            -2       2                0       0       0             .1       .3
+
+CROSS SECTION OUTPUT  Profile #PF 1  
+                                                                                           
+  E.G. Elev (m)             1.29    Element                 Left OB    Channel   Right OB  
+  Vel Head (m)              0.43    Wt. n-Val.                          0.013              
+  W.S. Elev (m)             0.86    Reach Len. (m)                                         
+  Crit W.S. (m)             0.86    Flow Area (m2)                       3.43              
+  E.G. Slope (m/m)      0.002837    Area (m2)                            3.43              
+  Q Total (m3/s)           10.00    Flow (m3/s)                         10.00              
+  Top Width (m)             4.00    Top Width (m)                        4.00              
+  Vel Total (m/s)           2.92    Avg. Vel. (m/s)                      2.92              
+  Max Chl Dpth (m)          0.86    Hydr. Depth (m)                      0.86              
+  Conv. Total (m3/s)       187.8    Conv. (m3/s)                        187.8              
+  Length Wtd. (m)                   Wetted Per. (m)                      5.72              
+  Min Ch El (m)             0.00    Shear (N/m2)                        16.70              
+  Alpha                     1.00    Stream Power (N/m s)                48.67              
+  Frctn Loss (m)                    Cum Volume (1000 m3)                                   
+  C & E Loss (m)                    Cum SA (1000 m2)                                       
+                                                                                           
+
+                                                                                
+
+SUMMARY OF MANNING'S N VALUES 
+
+River:Ganga           
+                                                                 
+      Reach          River Sta.       n1        n2        n3     
+                                                                 
+ 600                  4                 .013      .013      .013 
+ 600                  3.8750*           .013      .013           
+ 600                  3.7500*           .013      .013           
+ 600                  3.6250*           .013      .013           
+ 600                  3.5000*           .013      .013           
+ 600                  3.3750*           .013      .013           
+ 600                  3.2500*           .013      .013           
+ 600                  3.1250*           .013      .013           
+ 600                  3                 .013      .013      .013 
+ 600                  2.8333*           .013      .013           
+ 600                  2.6667*           .013      .013           
+ 600                  2.5000*           .013      .013           
+ 600                  2.3333*           .013      .013           
+ 600                  2.1667*           .013      .013           
+ 600                  2                 .013      .013      .013 
+ 600                  1.9000*           .013      .013           
+ 600                  1.8000*           .013      .013           
+ 600                  1.7000*           .013      .013           
+ 600                  1.6000*           .013      .013           
+ 600                  1.5000*           .013      .013           
+ 600                  1.4000*           .013      .013           
+ 600                  1.3000*           .013      .013           
+ 600                  1.2000*           .013      .013           
+ 600                  1.1000*           .013      .013           
+ 600                  1                 .013      .013      .013 
+                                                                 
+
+                                                                                
+
+SUMMARY OF REACH LENGTHS
+
+River: Ganga           
+                                                                 
+      Reach          River Sta.      Left     Channel    Right   
+                                                                 
+ 600                  4                   25        25        25 
+ 600                  3.8750*             25        25        25 
+ 600                  3.7500*             25        25        25 
+ 600                  3.6250*             25        25        25 
+ 600                  3.5000*             25        25        25 
+ 600                  3.3750*             25        25        25 
+ 600                  3.2500*             25        25        25 
+ 600                  3.1250*             25        25        25 
+ 600                  3                   25        25        25 
+ 600                  2.8333*             25        25        25 
+ 600                  2.6667*             25        25        25 
+ 600                  2.5000*             25        25        25 
+ 600                  2.3333*             25        25        25 
+ 600                  2.1667*             25        25        25 
+ 600                  2                   25        25        25 
+ 600                  1.9000*             25        25        25 
+ 600                  1.8000*             25        25        25 
+ 600                  1.7000*             25        25        25 
+ 600                  1.6000*             25        25        25 
+ 600                  1.5000*             25        25        25 
+ 600                  1.4000*             25        25        25 
+ 600                  1.3000*             25        25        25 
+ 600                  1.2000*             25        25        25 
+ 600                  1.1000*             25        25        25 
+ 600                  1                    0         0         0 
+                                                                 
+
+                                                                                
+
+SUMMARY OF CONTRACTION AND EXPANSION COEFFICIENTS
+River: Ganga           
+
+                                                       
+      Reach          River Sta.     Contr.    Expan.   
+                                                       
+ 600                  4               .1        .3 
+ 600                  3.8750*         .1        .3 
+ 600                  3.7500*         .1        .3 
+ 600                  3.6250*         .1        .3 
+ 600                  3.5000*         .1        .3 
+ 600                  3.3750*         .1        .3 
+ 600                  3.2500*         .1        .3 
+ 600                  3.1250*         .1        .3 
+ 600                  3               .1        .3 
+ 600                  2.8333*         .1        .3 
+ 600                  2.6667*         .1        .3 
+ 600                  2.5000*         .1        .3 
+ 600                  2.3333*         .1        .3 
+ 600                  2.1667*         .1        .3 
+ 600                  2               .1        .3 
+ 600                  1.9000*         .1        .3 
+ 600                  1.8000*         .1        .3 
+ 600                  1.7000*         .1        .3 
+ 600                  1.6000*         .1        .3 
+ 600                  1.5000*         .1        .3 
+ 600                  1.4000*         .1        .3 
+ 600                  1.3000*         .1        .3 
+ 600                  1.2000*         .1        .3 
+ 600                  1.1000*         .1        .3 
+ 600                  1               .1        .3 
+                                                       
